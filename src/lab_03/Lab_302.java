@@ -43,6 +43,8 @@ public class Lab_302 {
                 }
             }
             System.out.println("Minium: " + minimum);
+
+            break;
         }
     }
 
