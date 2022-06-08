@@ -1,9 +1,7 @@
 package lab_04;
 
 import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Lab_4 {
 
@@ -56,6 +54,7 @@ public class Lab_4 {
         }
         return length;
     }
+
 
     private static List generateArrayList(int length) {
         List<Integer> array = new ArrayList<>();
