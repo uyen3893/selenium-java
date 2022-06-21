@@ -2,7 +2,7 @@ package lab_08_animal;
 
 import java.security.SecureRandom;
 
-public class Animal {
+public class Animals {
 
     private int speed;
     private String name;

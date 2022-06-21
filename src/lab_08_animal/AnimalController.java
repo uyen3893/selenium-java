@@ -2,28 +2,27 @@ package lab_08_animal;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 public class AnimalController {
 
     public static void main(String[] args) {
-        Animal dog = new Dog();
-        Animal horse = new Horse();
-        Animal tiger = new Tiger();
+        Animals dog = new Dog();
+        Animals horse = new Horse();
+        Animals tiger = new Tiger();
 
         AnimalController animalController = new AnimalController();
         animalController.caculateWinner(Arrays.asList(dog, horse, tiger));
     }
 
-    public void caculateWinner(List<Animal> animals) {
+    public void caculateWinner(List<Animals> animals) {
         List<Integer> speeds = new ArrayList<>();
-        for (Animal animal: animals) {
+        for (Animals animal: animals) {
             speeds.add(animal.getSpeed());
         }
 
         List<String> names = new ArrayList<>();
-        for(Animal animal: animals) {
+        for(Animals animal: animals) {
             names.add(animal.getName());
         }
 

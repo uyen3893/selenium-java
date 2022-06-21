@@ -2,7 +2,7 @@ package lab_08_animal;
 
 import java.security.SecureRandom;
 
-public class Horse extends Animal{
+public class Horse extends Animals {
 
     private int speed = 75;
     private String name = "Horse";
